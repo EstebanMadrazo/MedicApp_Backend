@@ -1,17 +1,6 @@
 ﻿# MedicApp_Backend
 Este repositorio contiene el código del backend para la aplicación de citas médicas. La arquitectura del backend está basada en microservicios, permitiendo gestionar funcionalidades independientes como usuarios, citas, pagos, chat y especialidades médicas. La aplicación sigue los estándares de seguridad y protección de datos requeridos por las leyes mexicanas, como la LFPDPPP.
 
-# Tabla de Contenidos
-Descripción del Proyecto
-Arquitectura
-Requisitos
-Instalación y Configuración
-Ejecutar la Aplicación
-APIs y Documentación
-Cumplimiento Normativo
-Contribuir
-Licencia
-
 # Descripción del Proyecto
 El backend de esta aplicación de citas médicas está diseñado para proporcionar servicios como la gestión de usuarios, autenticación, creación y gestión de citas, procesamiento de pagos, chat entre médicos y pacientes, y recuperación de especialidades médicas. Los servicios se exponen a través de varias APIs REST, con una excepción para la recuperación de especialidades médicas, que utiliza una API SOAP.
 
