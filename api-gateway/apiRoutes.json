@@ -1,0 +1,103 @@
+{
+    "endpoints": {
+        "user": {
+            "index": 0,
+            "instances": [
+                {
+                    "apiName": "user",
+                    "protocol": "http://",
+                    "host": "localhost",
+                    "port": "8080",
+                    "url": "http://localhost:8080/v1/user/",
+                    "state": true
+                },
+                {
+                    "apiName": "user",
+                    "protocol": "http://",
+                    "host": "localhost",
+                    "port": "8081",
+                    "url": "http://localhost:8081/v1/user/",
+                    "state": false
+                }
+            ],
+            "loadBalanceStrategy": "ROUND_ROBIN"
+        },
+        "auth": {
+            "index": 0,
+            "instances": [
+                {
+                    "apiName": "auth",
+                    "protocol": "http://",
+                    "host": "localhost",
+                    "port": "3010",
+                    "url": "http://localhost:3010/v1/auth/",
+                    "state": true
+                }
+            ],
+            "loadBalanceStrategy": "ROUND_ROBIN"
+        },
+        "appointments": {
+            "index": 0,
+            "instances": [
+                {
+                    "apiName": "appointments",
+                    "protocol": "http://",
+                    "host": "localhost",
+                    "port": "3020",
+                    "url": "http://localhost:3020/v1/appointments/",
+                    "state": true
+                }
+            ],
+            "loadBalanceStrategy": "ROUND_ROBIN"
+        },
+        "payments": {
+            "index": 0,
+            "instances": [
+                {
+                    "apiName": "payments",
+                    "protocol": "http://",
+                    "host": "localhost",
+                    "port": "3050",
+                    "url": "http://localhost:3050/v1/payments/",
+                    "state": true
+                }
+            ],
+            "loadBalanceStrategy": "ROUND_ROBIN"
+        },
+        "notifications": {
+            "index": 0,
+            "instances": [
+                {
+                    "apiName": "notifications",
+                    "protocol": "http://",
+                    "host": "localhost",
+                    "port": "3080",
+                    "url": "http://localhost:3080/v1/notifications/",
+                    "state": true
+                }
+            ]
+        },
+        "chat": {
+            "index": 0,
+            "instances": [
+                {
+                    "apiName": "chat",
+                    "protocol": "http://",
+                    "host": "localhost",
+                    "port": "3100",
+                    "url": "http://localhost:3100/v1/chat/",
+                    "state": true
+                }
+            ],
+            "loadBalanceStrategy": "ROUND_ROBIN"
+        }
+    },
+    "auth": {
+        "users": {
+            "test": {
+                "username": "test",
+                "password": "pwd"
+            }
+        }
+    }
+}

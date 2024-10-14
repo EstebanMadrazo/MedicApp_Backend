@@ -1,0 +1,5 @@
+appointments/createAppointment
+
+Despues de crear una cita en caso de que se trate de una cita virtual, se debe de tener un modulo encargado de generar el link de google meets y enviarlo por correo
+tanto al medico como al paciente.
+

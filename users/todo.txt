@@ -1,0 +1,30 @@
+USER ROUTES
+-Create User
+-Get User Info
+-Update User Info
+-Get 
+
+
+
+Cuando se crea un usuario de tipo Medico se registra su usuario para inciar sesion
+Pero si el usuario no ha sido autorizado por admin para usar la aplicacion no tiene aceso
+Se tiene que condicionar que el campo has_access sea true para que pueda ingresar ese usuario a la plataforma
+
+
+
+Auth Middleware
+
+Crear el metodo para hacer refresh del token una vez que ya ha expirado
+Alternativamente se puede manejar que al ser movil, el token de refresh se guarde para la sesion
+y unicamente ese token es el que se use para la validacion, debido a que esos no tienen una fecha de expiracion
+
+
+Patients Controller
+If while creating a patient no profile picture is provided you'll need to assign a placeholder picture, still waiting
+
+UploadHandler
+Cuando se envien los archivos el primer elemento del array de data tiene que ser el uuid del medico correspondiente
+
+
+API Gateway
+Implement Rate Limiting for ips
