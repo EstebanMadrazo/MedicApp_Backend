@@ -7,8 +7,8 @@ El backend de esta aplicación de citas médicas está diseñado para proporcion
 # Arquitectura
 La aplicación utiliza una arquitectura de microservicios para distribuir las funcionalidades de manera modular. Los componentes principales son:
 
-Microservicio de Usuarios: Gestiona el registro, actualización y autenticación de los usuarios.
-Microservicio de Login/Autenticación: Maneja la autenticación y emisión de tokens JWT.
+<sub> Microservicio de Usuarios: Gestiona el registro, actualización y autenticación de los usuarios. </sub>	
+<sub> Microservicio de Login/Autenticación: Maneja la autenticación y emisión de tokens JWT. </sub>	
 Microservicio de Citas: Administra la creación, cancelación y reprogramación de citas médicas.
 Microservicio de Pagos: Procesa los pagos de las citas médicas.
 Microservicio de Chat: Permite la comunicación entre el médico y el paciente después de agendar una cita.
